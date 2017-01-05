@@ -1,3 +1,5 @@
+Nom : Dubel.
+
 Prénom : Rémy.
 
 Tel# : 06 65 53 70 46.
@@ -9,5 +11,4 @@ Latitude : 44.517811 | Longitude : 3.497843.
 
 Hobbies : Informatique, Musique.
 
-Nom : Dubel.
-
+J'aime aussi la pâte de fruits (ou pas).
