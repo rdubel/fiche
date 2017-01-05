@@ -12,3 +12,5 @@ Latitude : 44.517811 | Longitude : 3.497843.
 Hobbies : Informatique, Musique.
 
 J'aime aussi la pâte de fruits (ou pas).
+
+Fais moi des blagues
