@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+    background-image:url(../img/bg2.jpg);;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: serif;
+    font-size: 2em;
+    color: rgb(168, 0, 96);
+    padding: 3px;
+    margin: 2px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    color: rgb(65, 56, 78);
+    padding: 3px;
+    margin: 2px;
+}
+
+ul li:before {
+    content: "- ";
+}
+
+ol li {
+    list-style-type: disc;
+
+}
+
+label {
+        color: rgb(130, 134, 145);
+}
+
+label.information {
+    font-weight: bold;
+}
+
+a {
+    color: rgb(97, 0, 149);
+}
+
+a:hover {
+    color: rgb(162, 0, 10);
+}
+
+a:visited {
+    color: rgb(61, 1, 121);
+}
+
+p {
+    color: rgb(65, 56, 78);
+}
