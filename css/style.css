@@ -5,12 +5,12 @@ body {
 }
 
 h1 {
+    text-align: center;
     font-family: serif;
     font-size: 2em;
     color: rgb(168, 0, 96);
     padding: 3px;
     margin: 2px;
-    text-align: center;
 }
 
 li {
@@ -27,7 +27,6 @@ ul li:before {
 ol li {
     list-style-type: disc;
     margin-left: 5em;
-
 }
 
 label {
@@ -42,6 +41,7 @@ label.information {
 
 a {
     color: rgb(97, 0, 149);
+    font-weight: bold;
 }
 
 a:hover {
