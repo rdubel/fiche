@@ -26,11 +26,14 @@ ul li:before {
 
 ol li {
     list-style-type: disc;
+    margin-left: 5em;
 
 }
 
 label {
         color: rgb(130, 134, 145);
+        display: inline-block;
+        width: 10em;
 }
 
 label.information {
@@ -51,4 +54,5 @@ a:visited {
 
 p {
     color: rgb(65, 56, 78);
+    margin-left: 3em;
 }
