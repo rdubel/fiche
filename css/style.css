@@ -1,58 +1,83 @@
-body {
-    background-color: white;
-    background-image:url(../img/bg2.jpg);;
-    background-attachment: fixed;
-}
+    body {
+        font-family: 'Lemonada', cursive;
+        background-color: white;
+        background-image:url(../img/bg2.jpg);;
+        background-attachment: fixed;
+        border-style: inset;
+        border-color: rgb(112, 207, 207);
+        -moz-box-shadow: inset 10px 20px 100px 3px #656565;
+        -webkit-box-shadow: inset 10px 20px 100px 3px #656565;
+        -o-box-shadow: inset 10px 20px 100px 3px #656565;
+    box-shadow: inset 10px 20px 100px 3px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=153, Strength=100);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 
-h1 {
-    text-align: center;
-    font-family: serif;
-    font-size: 2em;
-    color: rgb(168, 0, 96);
-    padding: 3px;
-    margin: 2px;
-}
+    }
 
-li {
-    list-style-type: none;
-    color: rgb(65, 56, 78);
-    padding: 3px;
-    margin: 2px;
-}
+    h1 {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2em;
+        color: rgb(20, 88, 110);
+        padding: 20px;
+        margin: 25px;
+        border-style: outset;
+        border-radius: 5px;
+        box-shadow: 10px 20px 100px rgba(0, 0, 0, 0.84);
+        border-color: rgb(53, 100, 103);
+    }
 
-ul li:before {
-    content: "- ";
-}
+    h3 {
+        text-align: center;
+        color: rgb(7, 97, 97)
+    }
 
-ol li {
-    list-style-type: disc;
-    margin-left: 5em;
-}
+    li {
+        list-style-type: none;
+        color: rgb(65, 56, 78);
+        padding: 1em;
+        margin: 5px;
+    }
 
-label {
-        color: rgb(130, 134, 145);
-        display: inline-block;
-        width: 10em;
-}
+    ul li:before {
+        content: "-";
+    }
 
-label.information {
-    font-weight: bold;
-}
+    ol li {
+        list-style-type: disc;
+        margin-left: 5em;
+    }
 
-a {
-    color: rgb(97, 0, 149);
-    font-weight: bold;
-}
+    label {
+            text-align: left;
+            color: rgb(130, 134, 145);
+            display: inline-block;
+            width: 10em;
+    }
 
-a:hover {
-    color: rgb(162, 0, 10);
-}
+    label.information {
+        font-weight: bold;
+    }
 
-a:visited {
-    color: rgb(61, 1, 121);
-}
+    a {
+        text-decoration: none;
+        color: rgb(97, 0, 149);
+        font-weight: bold;
+        border: 0;
+    }
 
-p {
-    color: rgb(65, 56, 78);
-    margin-left: 3em;
-}
+    a:hover {
+        color: rgb(162, 0, 10);
+    }
+
+    a:visited {
+        color: rgb(61, 1, 121);
+    }
+
+    p {
+        color: rgb(65, 56, 78);
+        margin-left: 2em;
+        padding: 2em;
+    }
