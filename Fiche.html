@@ -1,10 +1,10 @@
 <!doctype html>
 <html>
 <head>
+    <meta charset="utf-8">
     <link href="./css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lemonada%7CMontserrat" rel="stylesheet">
     <title>Fiche cv</title>
-    <meta charset="utf-8">
 </head>
 <body>
     <header id="top">
@@ -42,6 +42,9 @@
             </li>
         </ul>
     </header>
+    <aside>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </aside>
     <main>
         <h1>Presentation</h1>
         <section id="moi">
@@ -73,6 +76,9 @@
             <h2>Contact</h2>
             <form action="http://live.codincamp.fr/mail.php" method="post">
                 <fieldset>
+                    <legend>Formulaire de contact</legend>
+                <fieldset>
+                    <legend>Informations</legend>
                     <label for="nom">Nom :</label>
                     <input name="name" id="nom" type="text">
 
@@ -90,27 +96,37 @@
                     <input name="gender" type=radio value="Femme">Femme.
                 </fieldset>
 
-                <fieldset>
-                    <label>Motif :</label>
-                    <input name="reason" type="checkbox">Rapport de bug
-                    <input name="reason" type="checkbox">Besoin d'information ?
-                    <input name="reason" type="checkbox">Besoin de mes services ?
+                <fieldset id="motive">
+                    <legend>Message</legend>
+                    <p>Motif :</p>
+                    <label for="bug">Rapport de bug</label>
+                    <input name="reason" id="bug" type="checkbox">
+
+                    <label for="info">Besoin d'informations ?</label>
+                    <input name="reason" id="info" type="checkbox">
+
+                    <label for="service">Besoin de mes services ?</label>
+                    <input name="reason" id="service" type="checkbox">
 
                     <label for="subject">Sujet :</label>
                     <input name="subject" id="subject" type="text">
 
                     <label for="message">Message :</label>
-                    <textarea name="message" id="message" cols="40" rows="5"></textarea>
+                    <textarea name="message" id="message" cols="70" rows="15"></textarea>
                 </fieldset>
+            </fieldset>
                 <input value="Envoyer" type="submit">
             </form>
         </section>
     </main>
-    <a href="https://www.facebook.com/dreambringer" target="_blank"><img alt="My Facebook" src="img/fb.png" width="100" height="100">
-    </a>
+    <footer>
+        <a href="https://www.facebook.com/dreambringer" target="_blank"><img alt="My Facebook" src="img/fb.png" width="100" height="100">
+        </a>
 
-    <a href="https://github.com/rdubel" target="_blank"><img alt="My Github" src="img/GitHub-Mark-120px-plus.png" width="100" height="100">
-    </a>
-    <a href="#top">Get to the top !</a>
+        <a href="https://github.com/rdubel" target="_blank"><img alt="My Github" src="img/GitHub-Mark-120px-plus.png" width="100" height="100">
+        </a>
+        <a href="#top" id="top2"><img alt="Get to the top !" src="img/uparrow.png" width="100" height="100">
+        </a>
+    </footer>
 </body>
 </html>

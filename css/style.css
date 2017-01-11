@@ -8,11 +8,13 @@ body {
     border-color: rgb(112, 207, 207);
     box-shadow: inset 10px 20px 100px 3px #656565;
     border-radius: 5px;
+    height: 245em;
 }
 
 header {
-    height: auto;
+    height: 35em;
 }
+
 
 img {
     border-radius: 1px;
@@ -22,6 +24,8 @@ img {
 nav {
     border-radius: 5px;
     border-style: outset;
+    box-shadow: 10px 20px 100px rgba(0, 0, 0, 0.84);
+    border-color: rgb(53, 100, 103);
     float: right;
     height: auto;
     margin-left: 20em;
@@ -104,10 +108,30 @@ form label {
     width: 45em;
 }
 
+aside {
+    border-radius: 0.5em;
+    border-style: outset;
+    box-shadow: 10px 20px 100px rgba(0, 0, 0, 0.84);
+    border-color: rgb(53, 100, 103);
+    float: left;
+    height: 193em;
+    margin-left: 1em;
+    padding: 1em;
+    vertical-align: top;
+    width: 20%;
+
+}
+
 main {
-
-    height: auto;
-
+    border-radius: 0.5em;
+    border-style: outset;
+    box-shadow: 10px 20px 100px rgba(0, 0, 0, 0.84);
+    border-color: rgb(53, 100, 103);
+    float: left;
+    height: 195em;
+    margin-left: 3em;
+    vertical-align: top;
+    width: 70%;
 }
 
 section {
@@ -119,6 +143,15 @@ section {
 fieldset {
     width: 60%;
     border-radius: 0.5em;
+}
+
+fieldset p {
+    margin: 0;
+    color: rgb(130, 135, 145);
+}
+
+#motive label {
+    color: rgb(8, 8, 8)
 }
 
 a {
@@ -140,6 +173,14 @@ p {
     color: rgb(65, 56, 78);
     margin-left: 2em;
     padding: 2em;
+}
+
+#top2 img {
+    float: right;
+}
+
+legend {
+    color: rgb(76, 98, 133)
 }
 
 header, nav, aside, main, section, footer {
