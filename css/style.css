@@ -22,7 +22,7 @@ img {
 }
 
 nav {
-    border-radius: 5px;
+    border-radius: 3em;
     border-style: outset;
     box-shadow: 10px 20px 100px rgba(0, 0, 0, 0.84);
     border-color: rgb(53, 100, 103);
@@ -36,12 +36,14 @@ nav {
 }
 
 nav ul {
+    background-color: rgba(7, 26, 26, 0.82);
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
     overflow: hidden;
     width: 100%;
+    border-radius: 3em;
 }
 
 nav ul li {
@@ -156,17 +158,17 @@ fieldset p {
 
 a {
     text-decoration: none;
-    color: rgb(97, 0, 149);
+    color: rgb(162, 159, 159);
     font-weight: bold;
     border: 0;
 }
 
-a:hover {
-    color: rgb(162, 0, 10);
+a:visited {
+    color: rgb(186, 149, 149);
 }
 
-a:visited {
-    color: rgb(61, 1, 121);
+a:hover {
+    color: rgb(255, 255, 255);
 }
 
 p {
