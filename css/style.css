@@ -30,7 +30,7 @@ nav {
     height: auto;
     margin-left: 20em;
     margin-right: 1em;
-    margin-top: 1em;
+    margin-top: 2em;
     text-align: left;
     width: 97%;
 }
@@ -180,6 +180,17 @@ p {
 #top2 img {
     float: right;
 }
+
+.headerDivider {
+     border-left:1px solid #ffffff;
+     border-right:1px solid #ffffff;
+     height:80px;
+     position:absolute;
+     right:249px;
+     top:10px;
+     width: 20px;
+}
+
 
 legend {
     color: rgb(76, 98, 133)
